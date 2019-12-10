@@ -38,7 +38,7 @@ fi
 ## iterate over and build each Dockerfile
 for file in $(find ${SEARCH_PATH} -type f -name Dockerfile | sort -n); do
     BUILD_DIR="$(dirname "${file}")"
-    IMAGE_TAG="davidalger/warden:$(dirname "${file}" | tr / - | sed 's/--/-/')"
+    IMAGE_TAG="blakesaunders/warden:$(dirname "${file}" | tr / - | sed 's/--/-/')"
 
     ## fpm images will not have each version in a directory tree; require version be passed
     ## in as env variable for use as a build argument
