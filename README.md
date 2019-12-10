@@ -5,7 +5,7 @@
 
 ## License
 
-This work is licensed under the MIT license. See [LICENSE](LICENSE) file for details.
+This work is licensed under the MIT license. See LICENSE file for details.
 
 ## Author Information
 
